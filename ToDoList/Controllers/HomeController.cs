@@ -36,26 +36,6 @@ namespace ToDoList.Controllers
             };
             return View(mainViewModel);
         }
-        public IActionResult EditCategory(int id)
-        {
-            return View(id);
-        }
-        public IActionResult AddCategory()
-        {
-            return View();
-        }
-        public IActionResult AddTodoTask()
-        {
-            return View();
-        }
-        public IActionResult AddTaskList()
-        {
-            return View();
-        }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
