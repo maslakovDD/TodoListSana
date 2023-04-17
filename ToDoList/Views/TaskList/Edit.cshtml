@@ -1,0 +1,12 @@
+﻿@using ToDoList.Entities
+@model TaskList
+@{
+}
+<h1>Edit action TaskList</h1>
+<form method="post">
+    <label>
+        Name:
+        <input type="text" name="ListName" value="@Model.ListName"/>
+    </label>
+    <input type="submit" value="Ok" />
+</form>

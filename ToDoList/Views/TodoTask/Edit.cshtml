@@ -1,0 +1,16 @@
+﻿@using ToDoList.Entities
+@model TodoTask
+@{
+}
+<h1>Edit action TodoTask</h1>
+<form method="post">
+    <label>
+        Name:
+        <input type="text" name="TaskName" value="@Model.TaskName" />
+    </label>
+    <label>
+        Due date:
+        <input type="date" name="DueDate" value="@Model.DueDate"/>
+    </label>
+    <input type="submit" value="Ok" />
+</form>

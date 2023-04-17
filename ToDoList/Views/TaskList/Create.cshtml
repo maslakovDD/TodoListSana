@@ -1,0 +1,13 @@
+﻿@model int
+@{
+
+}
+<h1>Create action TodoTask</h1>
+<form method="post">
+    <label>
+        Name:
+        <input type="text" name="ListName" />
+    </label>
+    <input hidden value="@Model" name="CategoryId"/>
+    <input type="submit" value="Ok" />
+</form>
